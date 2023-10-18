@@ -1,0 +1,10 @@
+<h2 class="page-header">Edit Author</h2>
+
+<form action="/authors/<%= author.id %>?_method=PUT" method="POST">
+    <%- include('_form_fields.ejs') %>
+    <div class="form-row form-row-end btn-row">
+        <a class="btn btn-danger" href="/authors/<%= author.id %>">Cancel</a>
+        <input class="btn btn-primary" type="submit" value="Update"><br>
+    </div>
+    <%- include('../partials/errorMessage.ejs') %>
+</form>

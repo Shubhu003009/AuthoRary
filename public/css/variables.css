@@ -1,0 +1,45 @@
+:root{
+
+    --nav-title-fz: 3rem;
+    --nav-link-fw: 300;
+    --nav-title-fw: bold;
+
+
+    --base-hue: 200;
+    --color-bg-dark: hsl(var(--base-hue), 100%, 8%);
+    --color-bg-light: hsl(var(--base-hue), 100%, 16%);
+    --color-text-light: hsl(var(--base-hue), 100%, 87%);
+    
+    /* BTNS */
+    
+    --color-base-hue: 200;
+    --color-danger-hue-offset: 200;
+    --color-danger-hue: calc(var(--color-base-hue) - var(--color-danger-hue-offset));
+    --color-btn-primary-bg: hsl(var(--color-base-hue), 100%, 83%);
+    --color-btn-primary-text: hsl(var(--color-base-hue), 100%, 20%);
+    --color-btn-danger-bg: hsl(var(--color-danger-hue), 100%, 83%);
+    --color-btn-danger-text: black;
+    --color-btn-border: black;
+
+    --color-btn-primary-text-dark: hsl(var(--color-base-hue), 100%, 10%);
+    --color-btn-primary-bg-dark: hsl(var(--color-base-hue), 100% ,73%);
+    --color-btn-danger-bg-dark: hsl(var(--color-danger-hue), 100%, 73%);
+    --color-btn-danger-text-dark: black;
+
+
+    --form-label-fz: 1.2rem;
+    --form-input-bg-color: hsl(var(--color-base-hue), 100%, 31%);
+    --form-input-border-color: hsl(var(--color-base-hue), 100%, 50%);
+    --form-input-border-color-light: hsl(var(--color-base-hue), 100%, 80%);
+
+
+    --book-cover-width: 200px;
+    --book-cover-width-large: 325px;
+    --book-cover-aspect-ratio: .75;
+
+    color: var(--color-text-light);
+
+
+
+
+}
